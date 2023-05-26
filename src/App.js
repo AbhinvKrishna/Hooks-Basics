@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 // useState
 //import UseStateHookNew from "./component/hooks_learn/useState/useStateOne.component";
 // import UseStateHook from "./component/hooks_learn/useState/useState.component";
@@ -36,6 +37,9 @@ import React from "react";
 
 // useReduce with data fetch
 // import UseReducerFive from "./component/hooks_learn/useReducer/FetchDataUsingUseReducer/UseReducerFive";
+
+//useRef
+import ForwardRef from "./component/hooks_learn/UseREf/ForwardRef";
 
 function App() {
   // const [user, setuser] = useState({
@@ -80,6 +84,10 @@ function App() {
 
       {/* useRedcuer with data fetch */}
       {/* <UseReducerFive /> */}
+
+      {/* useRef */}
+      <ForwardRef/>
+
 
     <h1>poco</h1>
     </div>
